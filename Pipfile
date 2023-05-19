@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiofiles = "==23.1.0"
+authlib = "==1.2.0"
+deepforest = "==1.2.4"
+dephell = "==0.8.3"
+fastapi = "==0.68.1"
+google-auth-oauthlib = "==1.0.0"
+httpx = "==0.23.3"
+ipykernel = "==6.22.0"
+itsdangerous = "==2.1.2"
+memory-profiler = "==0.61.0"
+pipdeptree = "==2.7.0"
+pyodm = "==1.5.10"
+python-dotenv = "==0.19.0"
+python-multipart = "==0.0.6"
+rio-mucho = "==1.0.0"
+uvicorn = "==0.15.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
